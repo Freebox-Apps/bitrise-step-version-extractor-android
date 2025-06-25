@@ -1,6 +1,6 @@
-# Get versionName and versionCode on Android
+# Get versionName and versionCode from an Android Project
 
-Extracts the version name and the version code from the Android project. It is useful if the versionName and versionCode values are defined somewhere else. Therefore, this step uses a Gradle task to print these two values. It supports only Groovy files for now.
+Extracts the version name and the version code from the Android project. It is useful if the versionName and versionCode values are defined somewhere else. Therefore, this step uses a Gradle task to print these two values. It supports Groovy and kotlin DSL.
 
 
 ## How to use this Step
