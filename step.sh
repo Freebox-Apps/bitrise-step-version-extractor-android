@@ -31,7 +31,7 @@ if [[ "$SCRIPT_TYPE" == "groovy" ]]; then
 
 task $TASK_NAME {
     doLast {
-        println("VERSION_NAME=\${android.defaultConfig.versionName})
+        println("VERSION_NAME=\${android.defaultConfig.versionName}")
         println("VERSION_CODE=\${android.defaultConfig.versionCode}")
     }
 }
